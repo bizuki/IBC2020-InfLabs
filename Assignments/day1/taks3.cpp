@@ -53,6 +53,7 @@ bool PointInParallelogram(point a, point b, point c, point d, point P) {
 }
 
 int main() {
+    // I suppose that vertexes are given in clockwise or counter-clockwise order
     int n;
     cin >> n;
     point a, b, c, d;
