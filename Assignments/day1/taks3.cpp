@@ -61,6 +61,12 @@ int main() {
     for (int i = 0; i < n; i++) {
         point P;
         cin >> P;
-        PointInParallelogram(a, b, c, d, P);
+        bool inside = PointInParallelogram(a, b, c, d, P);
+        if(inside){
+            cout<<"Inside\n;
+        }
+        else{
+            cout<<"Outside\n";
+        }
     }
 }
