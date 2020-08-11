@@ -63,7 +63,7 @@ int main() {
         cin >> P;
         bool inside = PointInParallelogram(a, b, c, d, P);
         if(inside){
-            cout<<"Inside\n;
+            cout<<"Inside\n";
         }
         else{
             cout<<"Outside\n";
